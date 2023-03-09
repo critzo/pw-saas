@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   piecewise:
-    image: measurementlab/piecewise:latest
+    image: critzo/pw:latest
     container_name: ${PIECEWISE_CONTAINER_NAME}
     depends_on:
       - piecewise-db
